@@ -33,7 +33,7 @@ var granimInstance = new Granim({
     }
 });
 
-//BUTTON 1
+//BUTTON 1 -- Talk2Me
 var modal1 = document.getElementById("modal1");
 
 // Get the button that opens the modal
@@ -59,7 +59,7 @@ window.onclick = function(event) {
   }
 }
 
-//BUTTON 2
+//BUTTON 2 -- BeeWise Tutoring
 var modal2 = document.getElementById("modal2");
 
 // Get the button that opens the modal
@@ -85,13 +85,13 @@ window.onclick = function(event) {
   }
 }
 
-//BUTTON 3 -- links to outside website
+//BUTTON 3 -- ECHO.AI -- links to outside website
 var btn3 = document.getElementById("btn3");
 btn3.onclick = function() { 
-  window.open("https://www.nintendo.com", "_blank") //TODO add your link
+  window.open("https://colab.research.google.com/drive/1ITuVjY_9zCR5IHMJuLBHo_KL2SriFxuC?usp=sharing", "_blank") 
 }
 
-//BUTTON 4
+//BUTTON 4 -- Restaurant Reservation
 var modal4 = document.getElementById("modal4");
 
 // Get the button that opens the modal
@@ -117,7 +117,7 @@ window.onclick = function(event) {
   }
 }
 
-//BUTTON 5
+//BUTTON 5 -- String Theory
 var modal5 = document.getElementById("modal5");
 
 // Get the button that opens the modal
@@ -151,7 +151,7 @@ btn6.onclick = function() {
 
 //HOBBY MODALS
 
-//BUTTON HOBBY 1
+//BUTTON HOBBY 1 -- Digital Art + Media
 var modalHobby1 = document.getElementById("modalHobby1");
 
 // Get the button that opens the modal
@@ -177,7 +177,7 @@ window.onclick = function(event) {
   }
 }
 
-//BUTTON HOBBY 2
+//BUTTON HOBBY 2 -- Cooking/Baking
 var modalHobby2 = document.getElementById("modalHobby2");
 
 // Get the button that opens the modal
@@ -203,7 +203,7 @@ window.onclick = function(event) {
   }
 }
 
-//BUTTON HOBBY 3
+//BUTTON HOBBY 3 -- Swim
 var modalHobby3 = document.getElementById("modalHobby3");
 
 // Get the button that opens the modal
@@ -229,7 +229,7 @@ window.onclick = function(event) {
   }
 }
 
-//BUTTON HOBBY 4
+//BUTTON HOBBY 4 -- Biking
 var modalHobby4 = document.getElementById("modalHobby4");
 
 // Get the button that opens the modal
@@ -255,7 +255,7 @@ window.onclick = function(event) {
   }
 }
 
-//BUTTON HOBBY 5
+//BUTTON HOBBY 5 -- Video Editing
 var modalHobby5 = document.getElementById("modalHobby5");
 
 // Get the button that opens the modal
@@ -281,7 +281,7 @@ window.onclick = function(event) {
   }
 }
 
-//BUTTON HOBBY 6
+//BUTTON HOBBY 6 -- Reading
 var modalHobby6 = document.getElementById("modalHobby6");
 
 // Get the button that opens the modal
